@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(113, 113, 145);
+}
+#text{
+    color:white;
+    width: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5em;
+    position: sticky;
+    left:0;
+}
+#to-do-list{
+    display: flex;
+    width:100%;
+    margin-top: 2em;
+    height: 40em;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    background-color: rgb(173, 173, 218);
+}
+.one-to-do{
+    padding-left: 2em;
+    flex-shrink: 0;
+    width: 25em;
+    height: 100%;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    background-color: rgb(218, 218, 238);
+    overflow: hidden;
+}
+.one-name{ 
+    margin-top: 1em;
+    font-weight: bold;
+    text-align: start;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+.one-elem-text{
+    margin-left:1em;
+    margin-top: 1em;
+    width: 90%;
+    height:fit-content
+}
+.images-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1em;
+    margin-top: 2.8em;
+    width:fit-content;
+    height: fit-content;
+}
+.images-container img,.checkbox-num{
+    width:1em;
+    margin-right: 1.3em;
+    height:1em;
+}
+.checkbox-num-no-margin{
+    width: 1em;
+    height: 1em;
+    margin-right: .4ex;
+}
+.user-image img{
+    width:3em;
+    height: 3em;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width:80%;
+    height: 90%;
+}
+.one-to-do-elem{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:40%;
+    margin-bottom: 1em;
+}
